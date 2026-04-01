@@ -1,8 +1,8 @@
-# Week 10 - In Class Activity 
+# Week 10 - In-Class Activity 
 ## Docker Compose Exercise
 
-1. Clone this repository (you can also Fork or use codespaces as well)
-2. Make the `Dockerfile` for the `web` and for the `db` directories (inside each directory)
+1. Clone this repository.
+2. Make the `Dockerfile` for the `web` and for the `db` directories (inside each directory).
     
     * To construct the Dockerfile, you will need to review the structure of the web application.
     * The Database in here is <a href='https://hub.docker.com/layers/library/mongo/4.4.2/images/sha256-31b5dbffc807a747e11a9e130df15a7a04ddd0bb56f9313c085835311984bba9'>mongodb:4.4.2</a>
@@ -14,7 +14,7 @@
 ### **This is just an exercise to get you started.**
 
 
-Each directory in this repository, has it's own Readme.md file.
+Each directory in this repository has its own Readme.md file.
 
 <a href='./db/README.md' >`\db\README.md`</a>
 <a href='./web/README.md' >`\web\README.md`</a>
