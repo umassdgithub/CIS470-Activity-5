@@ -1,9 +1,15 @@
 const express = require('express');
 const mongoose = require('mongoose');
+// This constant can be populated by the environment variables that we discussed in class (Dev - Staging - Prod).
+const mongoURI = process.env.MONGO_URI || 'mongodb://db/myapp';
+
 // Connect to MongoDB
-mongoose.connect('mongodb://db/myapp', { useNewUrlParser: true, useUnifiedTopology: true })
-  .then(() => console.log('Connected to MongoDB'))
-  .catch(err => console.error('Error connecting to MongoDB:', err));
+mongoose.connect(mongoURI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+})
+.then(() => console.log('Connected to MongoDB:', mongoURI))
+.catch(err => console.error('Error connecting to MongoDB:', err));
 
 // Define a Mongoose Schema
 const userSchema = new mongoose.Schema({
