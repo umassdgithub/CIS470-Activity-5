@@ -1,7 +1,7 @@
 # Week 10 - In-Class Activity 
 ## Docker Compose Exercise
 
-1. Clone this repository.
+1. Clone/Download this repository.
 2. Make the `Dockerfile` for the `web` and for the `db` directories (inside each directory).
     
     * To construct the Dockerfile, you will need to review the structure of the web application.
